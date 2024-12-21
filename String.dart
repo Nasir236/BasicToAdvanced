@@ -23,4 +23,17 @@ void main() {
   String name1 = "Nasir ";
   name1 += "Hussain Khan Jan"; // Appending new characters
   print(name1);
+
+  // Finding Substring
+  String str9 = 'Hello, world!';
+  int pos = str9.indexOf('world');
+  if (pos != -1) {
+    print("Found 'world' at position: $pos");
+  } else {
+    print('Subtring Not Found');
+  }
+
+  // find String Length
+  String st = "Zakir Shah";
+  print("String Length is: ${st.length}");
 }
