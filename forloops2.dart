@@ -16,40 +16,77 @@ void main() {
   // }
 
   // Third Example list and map iteration
-  var AllCars = [
+  // var AllCars = [
+  //   {
+  //     "CarName": "KIA",
+  //     "Model": 9812,
+  //     "Color": "Black",
+  //     "Rate": 5600000,
+  //   },
+  //   {
+  //     "CarName": "Hunda",
+  //     "Model": 9111,
+  //     "Color": "Black",
+  //     "Rate": 5600000,
+  //   },
+  //   {
+  //     "CarName": "Civic",
+  //     "Model": 1111,
+  //     "Color": "Brwon",
+  //     "Rate": 6600000,
+  //   },
+  //   {
+  //     "CarName": "Aulto",
+  //     "Model": 1212,
+  //     "Color": "White",
+  //     "Rate": 600000,
+  //   },
+  //   {
+  //     "CarName": "Suzuki",
+  //     "Model": 1212,
+  //     "Color": "White",
+  //     "Rate": 800000,
+  //   },
+  // ];
+
+  // for (var i = 0; i < AllCars.length; i++) {
+  //   print(AllCars[i]);
+  // }
+
+  List student = [
     {
-      "CarName": "KIA",
-      "Model": 9812,
-      "Color": "Black",
-      "Rate": 5600000,
+      "Name": "Shoaib",
+      "Age": 12,
+      "Rollno": 1234,
+      "isStudent": false,
     },
     {
-      "CarName": "Hunda",
-      "Model": 9111,
-      "Color": "Black",
-      "Rate": 5600000,
+      "Name": "Hazrat Bilal",
+      "Age": 60,
+      "Rollno": 1234,
+      "isStudent": true,
     },
     {
-      "CarName": "Civic",
-      "Model": 1111,
-      "Color": "Brwon",
-      "Rate": 6600000,
+      "Name": "Zakir",
+      "Age": 47,
+      "Rollno": 4334,
+      "isStudent": true,
     },
     {
-      "CarName": "Aulto",
-      "Model": 1212,
-      "Color": "White",
-      "Rate": 600000,
+      "Name": "Nasir",
+      "Age": 46,
+      "Rollno": 7734,
+      "isStudent": true,
     },
     {
-      "CarName": "Suzuki",
-      "Model": 1212,
-      "Color": "White",
-      "Rate": 800000,
+      "Name": "Khiyam",
+      "Age": 12,
+      "Rollno": 1234,
+      "isStudent": false,
     },
   ];
 
-  for (var i = 0; i < AllCars.length; i++) {
-    print(AllCars[i]);
+  for (var i = 0; i < student.length; i++) {
+    print(student[i]);
   }
 }
