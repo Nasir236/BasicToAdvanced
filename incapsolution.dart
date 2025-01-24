@@ -1,3 +1,5 @@
+import 'incapsolutionpersonClass.dart';
+
 void main() {
   //Incapsolution we are using two methods
   // 1. Public
@@ -9,18 +11,7 @@ void main() {
   // create instance
   Student obj = Student();
   obj.name = "Hussain";
-  obj._bankDetails = "HabibBank";
-}
-
-class Person {
-  // create class
-  String? name;
-  String _bankDetails =
-      "Mezanbank-mezanbank-mezanbank"; // you make private attribute with _underscor
-
-  displayInfo() {
-    print('Name: $name');
-  }
+  obj._bankDetails; // not access in class ask to Sir Bilal;
 }
 
 class Student extends Person {}
