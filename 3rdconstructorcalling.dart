@@ -13,6 +13,8 @@ class Person {
   Person(name, age) {
     this.namee = name;
     this.agee = age;
+    print(
+        "Setting Attributes Value"); // inside the curly braket {this.name} we are open and then we define
   } // we create constructor refrence (this) is attribute is refrence
 
   displayInfo() {
