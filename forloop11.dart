@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   // for paractce
   int number = 5;

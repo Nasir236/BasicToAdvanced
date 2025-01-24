@@ -1,6 +1,6 @@
 void main() {
   Person obj = Person("Nasir", 23);
-  obj.displayInfo();
+  //obj.displayInfo();
 }
 
 // Creating Class
@@ -10,9 +10,10 @@ class Person {
 
   // Create Constructor
   //Constructor type parameterize we used normaly
-  Person(this.name,
-      this.age); // we create constructor refrence (this) is attribute is refrence
-  // This is Short Form Constructor (this.name) insde the Round Baraket.
+  Person(name, age) {
+    print("object: $name");
+    print("object: $age");
+  } // we create constructor refrence (this) is attribute is refrence
 
   displayInfo() {
     print("Name: $name");
