@@ -1,10 +1,10 @@
 void main() {
-  // polymorpisam have two Types
-  // 1.OverLoading  never in dart language
-  // 2.OverRiding we use to overrifing method
+  // polymorpisam have two Types.
+  // 1.OverLoading never use in dart language.
+  // 2.OverRiding we use to overrifing method.
   // create instance
   Student obj =
-      Student(); // Student class is Child but access to Parent Attributes
+      Student(); // Student class is Child but access to Parent Attributes.
   obj.name = "Hussain";
   obj.age = 23;
   obj.displayInfo();
